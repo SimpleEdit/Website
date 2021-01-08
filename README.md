@@ -1,3 +1,3 @@
 ## Welcome
 
-Welcome to SimpleEdit, an external Geometry Dash editor for noobs!
+Welcome to SimpleEdit, an external Geometry Dash editor.
