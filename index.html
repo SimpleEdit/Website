@@ -1,16 +1,53 @@
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<style>
+    .jumbotron-fluid {
+      padding-right: 0;
+      padding-left: 0;
+      border-radius: 0;
+    }
+
+    .jumbotron {
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+      background-color: #e9ecef;
+      border-radius: .3rem;
+    }
+		</style>
     <title>SimpleEdit</title>
-    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <img src=edit.png>
-    <h1>SimpleEdit<h1>
-    <h2>About</h2>
-    <p>This is a Geometry Dash level editor for noobs! SimpleEdit is VERY far from finished (it doesn't even exist yet lol), so feel free to help! <a href="https://discord.gg/KsBgjx3XnZ">Join our Discord server</a> to make a join request! </p>
-    <p>Currently, SimpleEdit is in devolopment. When it comes out, you will require node.js 14.00 or higher.</p>
+  <body class="bg-primary">
+		<!-- Image and text -->
+		<nav class="navbar navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="/logo.png" alt="SimpleEdit logo" height="30" class="d-inline-block align-top">
+					SimpleEdit
+				</a>
+			</div>
+		</nav>
+		<div class="card bg-dark text-white">
+			<div class="card-overlay center bg-secondary jumbotron" style="background-image: url('/logo.png');color:white;">
+				<br><br>
+				<h1 class="card-title">SimpleEdit</h1>
+				<p class="card-text">Geometry Dash Editing. Refined.</p>
+				<br><br>
+			</div>
+		</div>
+		<hr>
+		<div class="card bg-secondary" style="color:white;">
+			<h2>About</h2>
+			<p>This is a Geometry Dash level editor for noobs! SimpleEdit is VERY far from finished (it doesn't even exist yet lol), so feel free to help! <a href="https://discord.gg/KsBgjx3XnZ" class="text-danger">Join our Discord server</a> to make a join request, or make an issue on our github page!</p>
+		</div>
+		<hr style="color:white;">
+    <!-- Bootstrap JS with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
