@@ -1,3 +1,3 @@
-## Welcome
+## SimpleEdit Website
 
-Welcome to SimpleEdit, an external Geometry Dash editor.
+This is the code for the SimpleEdit website.
