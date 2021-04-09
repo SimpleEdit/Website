@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "wgyt",
+      "name": "William Horning",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68466727?v=4",
+      "profile": "http://wgyt.tk",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "website",
+  "projectOwner": "SimpleEdit",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
